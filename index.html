@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>SEA HARVEST</title>
+	<link rel="stylesheet" type="text/css" href="css/style_grid.css">
+	<link href="https://fonts.googleapis.com/css?family=Staatliches" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=PT+Serif:700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Assistant:700" rel="stylesheet">
+	<style type="text/css">
+		*{
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+		}
+		h1, h2, h3{
+			text-align:center;
+		}
+		ul li{
+			width: 27px;
+			height: 47px;
+			border: 1px solid black;
+			list-style-type: none;
+			display: inline-block;
+			text-align: center;
+			font-family: 'Staatliches', cursive; 
+			padding: 10px;
+		}
+		main>div{
+			padding: 0;
+		}
+		section, div{
+			border: 1px solid black;
+		}
+		img{
+			height: 100%;
+			width: 100%;
+		}
+		#uno{
+			height: 200px;
+		}
+		#dos{
+			height: 200px;	
+		}
+		#dos h1{ 
+			line-height: 100px;
+			font-size: 80px;
+			word-spacing: 50px;
+			letter-spacing: 20px;
+			font-family: 'Staatliches', cursive; 
+		}
+		#dos h2{
+			font-family: 'Staatliches', cursive;
+			font-size: 30px;
+			word-spacing: 10px;
+			letter-spacing: 4px;
+        }
+		#dos h3{
+			margin-top: 20px;
+			font-size: 16px;
+			word-spacing: 4px;
+			letter-spacing: 5px;
+			font-family: 'Oswald', sans-serif;
+		}
+		#tres{
+			height: 200px;
+		}
+		#tres h2{
+			margin-top: 30px;
+			font-size: 20px;
+			letter-spacing: 3px;
+			font-family: 'Staatliches', cursive;
+		}
+		#qua{
+			height: 700px;
+			padding: 25px;
+		}
+		#qua h1{
+			font-family: 'PT Serif', serif;
+			font-size: 100px;
+			text-align: left;
+			line-height: 100px;
+			
+		}
+		#qua h3{
+		    font-family: 'Oswald', sans-serif;
+			font-size: 16px;
+			word-spacing: 2px;
+			letter-spacing: 5px;
+			text-align: left;
+		}
+		#qua p{
+			font-family: 'Roboto Slab', serif;
+		}
+		#quatre{
+			text-align: right;
+			padding-right: 30px;
+		}
+		#qua img{
+			height: 320px;
+			width: 940px;
+		}
+		#cinc{
+			height: 700px;
+			padding: 30px;
+
+		}
+		#cinc h1{
+			font-family: 'PT Serif', serif;
+			font-size: 70px;
+		}
+		#cinc h2{
+			margin-top: 20px;
+			font-size: 18px;
+			font-family: 'Assistant', sans-serif;
+			line-height: 27px;
+		}
+		#cinc img{
+			margin-left: 50px;
+			height: 235px;
+			width: 350px;
+		}
+		#sis{
+			padding: 40px;
+			height: 620px;
+
+		}
+		#sis h1{
+			font-family: 'PT Serif', serif;
+			font-size: 50px;
+		}
+		#sis h2{
+			margin-top: 20px;
+			font-size: 18px;
+			font-family: 'Assistant', sans-serif;
+			line-height: 27px;
+		}
+		#sis img{
+			height: 200px;
+			width: 300px;
+		}
+		#set{
+			padding: 40px;
+			height: 620px;
+		}
+		#set h1{
+			font-family: 'PT Serif', serif;
+			font-size: 100px;
+			text-align: left;
+			line-height: 100px;
+			
+		}
+		#set h2{
+			font-family: 'Oswald', sans-serif;
+			font-size: 16px;
+			word-spacing: 2px;
+			letter-spacing: 5px;
+			text-align: left;
+			line-height: 60px;
+		}
+		#set p{
+			font-family: 'Roboto Slab', serif;
+			columns: 15px 2;
+			margin-right: 350px;
+			line-height: 27px;
+		}
+		#set img{
+			position: absolute;
+			top: 1000px;
+			left: 1160px;
+			height: 500px;
+			width: 350px;
+			float: right;
+		}
+		#huit{
+			height: 750px;
+		}
+		#huit h1{
+			font-family: 'PT Serif', serif;
+			font-size: 60px;
+			text-align: left;
+			line-height:60px;
+			margin:30px;
+
+		}
+		#huit h2{
+			font-family: 'Oswald', sans-serif;
+			font-size: 13px;
+			word-spacing: 2px;
+			letter-spacing: 2px;
+			line-height: 10px;
+			text-align: left;
+			margin-left: 40px;
+		}
+		#huit p{
+			font-family: 'Roboto Slab', serif;
+			margin-left: 40px;
+			font-size: 15px;
+		}
+		#vuit{
+			text-align: right;
+			line-height: 30px;
+			padding-right: 30px;
+		}
+		#huit img{
+			height: 320px;
+			width: 480px;
+			margin:0;
+		}
+		#nou{
+			height: 902px;
+		}
+		#nou h1{
+			font-family: 'PT Serif', serif;
+			font-size: 60px;
+			text-align: left;
+			line-height:60px;
+			margin:30px;
+		}
+		#nou h2{
+			font-family: 'Oswald', sans-serif;
+			font-size: 13px;
+			word-spacing: 2px;
+			letter-spacing: 2px;
+			line-height: 10px;
+			text-align: left;
+			margin-left: 40px;
+		}
+		#nou p{
+			font-family: 'Roboto Slab', serif;
+			margin-left: 40px;
+			font-size: 17px;
+		}
+		#nine{
+			text-align: right;
+			line-height: 30px;
+			padding-right: 30px;
+		}
+		#nou img{
+			height: 430px;
+			width: 440px;
+			margin: 30px;
+		}
+		#deu{
+			height: 750px;
+		}
+		#deu h1{
+			font-family: 'PT Serif', serif;
+			font-size: 60px;
+			text-align: center;
+			line-height:60px;
+			margin:30px;
+		}
+		#deu h2{
+			font-family: 'Oswald', sans-serif;
+			font-size: 13px;
+			word-spacing: 2px;
+			letter-spacing: 2px;
+			line-height: 10px;
+			text-align: center;
+			margin-left: 40px;
+		}
+		#deu p{
+			font-family: 'Roboto Slab', serif;
+			margin-left: 40px;
+			font-size: 14px;
+			margin-right: 20px;
+		}
+		#deu img{
+			height: 380px;
+			width: 500px;
+			margin:15px;
+		}
+		#onze{
+			height: 150px;
+		}
+		#onze h1{
+			font-family: 'Staatliches', cursive;
+			text-align: center;
+			font-size: 80px;
+			margin-top: 22px;
+		}
+
+		
+		
+		
+	</style>
+</head>
+<body>
+	<header>
+		<div id="uno" class="col-2">
+		   <img src="img/img_1.png">
+	    </div>
+		<div id="dos" class="col-8">
+            <h3>SUNDAY, DECEMBER 16, 2018</h3>
+		    <h1>SEA HARVEST</h1>
+		    <h2>Fresh seafood market</h2>
+		</div>
+		<div id="tres" class="col-2">
+			<h2>Belconnen <br>markets</h2>
+		    <h2>Fyshwick <br>markets</h2>
+		</div>
+		<nav class="col-12">
+			<ul>
+				<a href="#"><li class="col-3">About</li></a>
+				<a href="#"><li class="col-3">Products</li></a>
+				<a href="#"><li class="col-3">Contact</li></a>
+				<a href="#"><li class="col-3">Order</li></a>
+				
+			</ul>
+		</nav>
+	</header>
+
+    <main>
+    <!-- 1 -->
+    <div class="col-8">
+		<section id="qua">
+			<h1>CATCH OF THE<br> DAY</h1>
+			<h3>FROM SEA TO PLATE</h3>
+			<img src="img/img_2.png">
+			<p>The latest harvest has yielded deliciously fresh seafood perfect for devouring on its own or as part of a scrumptious recipe. Here’s a seasonal favourite…</p>
+            <p id="quatre" >Full report on page 3</p>
+		</section>
+	</div>
+	<div class="col-4">
+		<section id="cinc">
+			<h1>FIND US</h1>
+			<img src="img/img_3.png">
+			<h2>BELCONNEN MARKETS<br> 10 LATHLAIN ST, BELCONNEN<br>ACT 2617, AUSTRALIA<br>OPEN WED-SUN 8:00AM-6:00PM</h2>
+			<h2>FYSHWICK MARKETS<br>12 DALBY ST, FYSHWICK ACT<br> 2609, AUSTRALIA<br> OPEN THU-SUN 7:00AM-5:30PM</h2>
+		</section>
+	</div>
+	
+    <!-- 2 -->
+	<div class="col-3">
+		<section id="sis">
+			<img src="img/img_5.png">
+			<h1>GET IN TOUCH</h1>
+			<h2>CALL US <br> 0436 455 551</h2>
+			<h2>EMAIL US<br>CLICK HERE</h2>
+		</section>
+	</div>
+	<div class="col-9">
+		<section id="set">
+			<h1>STRAIGHT FROM THE SOURCE</h1>
+			<h2>SEA HARVEST FRESH</h2>
+			<img src="img/img_6.png">
+			<p>The blue green waters off the south east coast of Australia glisten as the sun rises above the horizon. Up early and eager, local fishermen brave the choppy seas as they collect their daily yield. Dedicated to preservation, they work extra hard to follow environmentally sustainable fishing practices – including avoiding overfishing, staying clear of protected areas, releasing protected species, and using safe fishing gear. As they arrive back at the docks, the huge array of fresh seafood is put on ice and shipped directly to Sea Harvest’s door in Canberra. Oysters, prawns, mussels, calamari, lobster, snapper, and every seasonal fish available travels straight from sea to store, just for you.</p>
+		</section>
+	</div>
+
+    <!-- 3 -->
+	<div class="col-4">
+		<section id="huit">
+			<h1>THE SEA HARVEST STORY</h1>
+			<h2>A TALE OF FISH AND FAMILY</h2>
+			<img src="img/img_7.png">
+			<p>The Sea Harvest story begins in the 1800s on a small, picturesque fishing island called Lefkada in Greece. For generations since, our love of the sea and taste for seafood has endured, following us to Canberra where we settled in the 1970s. For over 40 years now, we have dedicated ourselves to offering the finest and freshest Australian seafood at the best price.</p>
+            <p id="vuit" >Continued on page 9</p>
+		</section>
+	</div>
+	<div class="col-4">
+		<section id="nou">
+			<h1>BATEMANS BAY FISHING TIPS</h1>
+			<h2>SCORE THE BEST CATCH</h2>
+			<img src="img/img_8.png">
+			<p>Cars will soon be bumper-to-bumper on the Clyde and Brown mountains as Canberrans pour out of the capital to feel the sun on their backs and…</p>
+           <p id="nine"> Continued on page 11</p>
+		</section>
+	</div>
+	<div class="col-4">
+		<section id="deu">
+			<h1>FRESH AS IT GETS</h1>
+			<h2>A TASTE OF THE SEA</h2>
+			<img src="img/img_9.png">
+			<p>Sea Harvest’s seafood is trusted by many of the best seafood restaurants in Canberra. We are obsessed with cleanliness and quality, and only buy from suppliers who are 100% committed to sustainable fishing practices and the long term protection of sea life. We buy fresh so that we can sell fresh, and pride ourselves on bringing the best of the coast to the capital.</p>
+		</section>
+	</div>
+
+    <!-- 4 -->
+	<div class="col-4">
+		<section id="onze">
+			<h1>SEA HARVEST</h1>
+		</section>
+	</div>
+	
+	
+	</main>
+	<footer>
+		<div class="col-12">
+			<ul>
+				<li class="col-6">©2018 SEA HARVEST AUSTRALIA, FRESH SEAFOOD MARKET</li>
+				<li class="col-4">Belconnen markets/ Fyshwick markets</li>
+				<li class="col-2">Website by ed.</li>
+			</ul>
+		</div>
+	</footer>
+</body>
+</html>
